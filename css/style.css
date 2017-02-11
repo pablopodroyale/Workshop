@@ -1,0 +1,265 @@
+.contenedor {
+	max-width: 80%;
+	margin: auto;
+	display: flex;
+	flex: wrap;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 10px;
+	height: 50px;
+}
+
+.menu {
+	background: #2C3E50;
+	width: 100%;
+	height: 50px;
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+	text-transform: uppercase;
+}
+
+.menu h3 {
+	font-size: 1em;
+	font-weight: 700;
+}
+
+.link1 a {
+	color: white;
+	text-decoration: none;
+	list-style: none;
+	display: inline;
+	font-size: 0.5em;
+	font-weight: 400;
+}
+
+.contenedor2 {
+	max-width: 100%;
+	padding-top: 60px;
+	display: flex;
+	flex-flow: column wrap;
+	align-items: center;
+	justify-content: center;
+}
+
+header{
+	background: #18BC9C;
+	height: 500px;
+	width: 100%;
+}
+
+h1 {
+	color: white;
+	font-size: 3em;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	text-transform: uppercase;
+	padding: 10px;
+}
+
+h3 {
+	color: white;
+	font-size: 1em;
+	font-family: 'Open Sans', sans-serif;
+	padding: 10px;
+}
+
+/*estrella blanca*/
+.ion-android-star {
+	color: white;
+	font-size: 1.5em;
+	text-align: center;
+}
+
+.blanca:after {
+	content: "";
+	width: 100px;
+	height: 4px;
+	background: white; 
+	display: inline-block;
+	margin-bottom: 5px;
+	margin-right: 20px;
+}
+
+.blanca:before {
+	content: "";
+	width: 100px;
+	height: 4px;
+	background: white; 
+	display: inline-block;
+	margin-bottom: 5px;
+	margin-left: 20px;
+}
+
+/*estrella negra*/
+
+#portfolio .ion-android-star{
+	color: black;
+	font-size: 1.5em;
+}
+
+
+.negra:after {
+	content: "";
+	width: 100px;
+	height: 4px;
+	background: black; 
+	display: inline-block;
+	margin-bottom: 5px;
+	margin-right: 20px;
+}
+
+.negra:before {
+	content: "";
+	width: 100px;
+	height: 4px;
+	background: black; 
+	display: inline-block;
+	margin-bottom: 5px;
+	margin-left: 20px;
+}
+
+
+.contenedor3 {
+	max-width: 100%;
+	padding-top: 20px;
+	padding-bottom: 60px;
+	display: flex;
+	flex-flow: row wrap;
+	align-items: center;
+	justify-content: center;
+}
+
+.contenedor3 img {
+	width: 25%;
+	height: 25%;
+	padding: 10px;
+}
+
+h2 {
+	color: black;
+	font-size: 1.5em;
+	font-family: 'Montserrat', sans-serif;
+	padding: 10px;
+	text-transform: uppercase;
+	font-weight: 700;
+	text-align: center;
+}
+
+.about{
+	background: #18BC9C;
+	height: 500px;
+	width: 100%;
+}
+
+.about h2 {
+	color: white;
+	font-size: 1.5em;
+	font-family: 'Montserrat', sans-serif;
+	padding: 10px;
+	text-transform: uppercase;
+	font-weight: 700;
+	text-align: center;
+}
+
+.about p, a{
+	color: white;
+	font-size: 1em;
+	font-weight: 400;
+	font-family: 'Open Sans', sans-serif;
+	text-decoration: none;
+}
+
+.boton {
+	margin: 20px;
+	padding: 10px;
+	border: 1px white solid;
+	border-radius: 5px;
+}
+
+
+.parrafos p {
+	column-count: 2;
+}
+
+.parrafos {
+	width: 50%;
+}
+
+.contacto {
+	height: 500px;
+	width: 100%;
+	max-width: 100%;
+	display: flex;
+	flex-flow: column wrap;
+	justify-content: center;
+}
+
+.contacto .ion-android-star{
+	color: black;
+	font-size: 1.5em;
+}
+
+
+.formu {
+	padding-top: 20px;
+}
+
+.formulario {
+	color: grey;
+	font-size: 1em;
+	font-weight: 400;
+	font-family: 'Open Sans', sans-serif;
+	text-decoration: none;
+	display: block;
+	width: 600px;
+	padding: 10px 0 10px 10px;
+	border: none;
+	border-top: 1px solid #EEE;
+	border-bottom: 1px solid #EEE;
+}
+
+.botonsummit {
+	background-color: #18BC9C;
+	color: white;
+	margin: 20px;
+	padding: 10px;
+	border: none;
+	border-radius: 5px;
+}
+
+
+.piedepag  {
+	background: #2C3E50;
+	height: 200px;
+	width: 100%;
+	margin: 0;
+	color: white;
+	font-family: 'Open Sans', sans-serif;	
+}
+
+h4 {
+	font-family: 'Montserrat', sans-serif;
+	text-transform: uppercase;
+	font-size: 1em;
+	font-weight: 700;
+}
+
+.caja {
+	width: 27%;
+	text-align: center;
+}
+
+
+.copyright {
+	background: #233140;
+	height: 50px;
+	width: 100%;
+	padding-top: 20px;
+	text-align: center;
+	font-size: 0.7em;
+	box-sizing: border-box;
+}
+
+.contenedor3 {
+	align-items: baseline;
+}
